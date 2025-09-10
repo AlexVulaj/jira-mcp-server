@@ -1,0 +1,46 @@
+{
+  "name": "jira-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Jira Server integration. Enables AI assistants to interact with Jira through natural language.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVulaj/jira-mcp-server.git"
+  },
+  "homepage": "https://github.com/AlexVulaj/jira-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/AlexVulaj/jira-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "jira",
+    "server",
+    "model-context-protocol",
+    "ai",
+    "claude",
+    "cursor",
+    "assistant",
+    "integration",
+    "jira-server",
+    "rest-api",
+    "issue-tracking",
+    "project-management"
+  ],
+  "author": "Alex Vulaj <avulaj@redhat.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.3.1"
+  }
+}
